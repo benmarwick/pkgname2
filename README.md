@@ -3,6 +3,8 @@
 
 # pkgname2
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/benmarwick/pkgname2/master?urlpath=rstudio)
+
 This repository contains the data and code for our paper:
 
 > Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
@@ -11,7 +13,7 @@ This repository contains the data and code for our paper:
 Our pre-print is online here:
 
 > Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 26 Jun 2019. Online at
+> journal/book, Accessed 27 Jun 2019. Online at
 > <https://doi.org/xxx/xxx>
 
 ### How to cite
@@ -19,16 +21,23 @@ Our pre-print is online here:
 Please cite this compendium as:
 
 > Authors, (2019). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 26 Jun 2019. Online at
+> paper goes here*. Accessed 27 Jun 2019. Online at
 > <https://doi.org/xxx/xxx>
 
 ### How to download or install
 
 You can download the compendium as a zip from from this URL:
-</archive/master.zip>
+<https://github.com/benmarwick/pkgname2/archive/master.zip>
 
 Or you can install this compendium as an R package, pkgname2, from
-GitHub with: \#\#\# Licenses
+GitHub with:
+
+``` r
+# install.packages("devtools")
+remotes::install_github("benmarwick/pkgname2")
+```
+
+### Licenses
 
 **Text and figures :**
 [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)

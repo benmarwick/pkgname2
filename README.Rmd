@@ -10,11 +10,13 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "README-"
 )
-# Please put your title here to include it in the file below. 
+# Please put your title here to include it in the file below.
 Title <- "Title of your paper goes here"
 ```
 
 # pkgname2
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/benmarwick/pkgname2/master?urlpath=rstudio)
 
 This repository contains the data and code for our paper:
 
@@ -33,9 +35,17 @@ Please cite this compendium as:
 
 ### How to download or install
 
-You can download the compendium as a zip from from this URL: </archive/master.zip>
+You can download the compendium as a zip from from this URL: <https://github.com/benmarwick/pkgname2/archive/master.zip>
 
 Or you can install this compendium as an R package, pkgname2, from GitHub with:
+
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+remotes::install_github("benmarwick/pkgname2")
+```
+
+
 ### Licenses
 
 **Text and figures :**  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
